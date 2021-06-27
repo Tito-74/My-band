@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Train+One&display=swap');
+
+
 body{
     background: #5f6c7d;
 }
@@ -34,15 +37,24 @@ body{
     height: 600px;
 
 }
-/* .info{
-    margin-top: -20px;
-    text-align: center;
-    padding-right: 50px;
-    padding-left: 50px;
-    background-color: #828487;
+.band_info{
+    padding-top: 400px;
     color: #fff;
-    font-size: large;
-} */
+    text-align: center;
+    font-size: x-large;
+
+}
+.band_name {
+    font-family:'Pacifico', cursive;
+    font: bold;
+    font-weight: 900;
+
+}
+.band_name > p {
+    font-family: 'Train One', cursive;
+    margin-top: -25px;
+}
+
 footer{
     color: #fff;
     display: flex;
@@ -67,7 +79,6 @@ footer{
 .news{
     width: 100%;
     height: 350px;
-    /* border: 1px solid #fff; */
     display: flex;
     justify-content: space-evenly;
     padding: 15px;
@@ -115,8 +126,7 @@ span{
     width: 35px;
     height: 35px;
     justify-content: space-between;
-    /* position: absolute; */
-}
+   }
 #tour_info > ul{
     list-style: none;
 }
@@ -126,8 +136,6 @@ span{
 #story_image{
     width: 50%;
     height: 150px;
-    /* padding-top: 5px; */
-    /* margin-left: 1%; */
     box-shadow: #f75957 0px 5px, #fa7a6b 0px 10px, #fc9083 0px 15px, #fcaba2 0px 20px, #fac6c0 0px 25px;
 
 }

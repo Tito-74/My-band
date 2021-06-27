@@ -1,0 +1,137 @@
+body{
+    background: #5f6c7d;
+}
+.header{
+    display:flex;
+    padding: 20px;
+    color: #fff;
+    background: #405066;
+    height: 60px;
+}
+.title{
+    font-size: large;
+    font-family: sans-serif;
+    margin-left: 2%;
+    padding-bottom: 10px;
+}
+.nav{
+    padding-top: 40px;
+    position:absolute;
+    margin-left: 60%;
+    justify-content: space-between;
+
+}
+.nav > a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.image{
+    background-image: url(./Assests/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+
+}
+/* .info{
+    margin-top: -20px;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #828487;
+    color: #fff;
+    font-size: large;
+} */
+footer{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-color: #828487;
+    font-size: large;
+    
+}
+.handles{
+    justify-content: center;
+    margin-left:45%;
+}
+.handles > i{
+    
+    padding: 5px;
+}
+
+.copy{
+    text-align: center;
+}
+/* Styling the news div */
+.news{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    color: #fff;
+    
+    
+}
+.latest-news, .tour-dates, .in_story_now{
+    width: 30%;
+    border: 1px solid #fff;
+
+}
+.news_title, .tour_title{
+    text-align: center;
+}
+#news_info > ul > li {
+    display: flex;
+    
+
+}
+#news_info > ul > li > span{
+    color: #fff;
+    background: lightblue;
+    border-radius: 55%;
+    width: 35px;
+    height: 35px;
+    justify-content: space-between;
+}
+span{
+    padding: 10px;
+    margin: 5px;
+
+}
+
+#tour_info> ul > li {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+#tour_info > ul > li > span{
+    color: #fff;
+    background: #d50000;
+    border-radius: 55%;
+    width: 35px;
+    height: 35px;
+    justify-content: space-between;
+    /* position: absolute; */
+}
+#tour_info > ul{
+    list-style: none;
+}
+.in_story_now{
+    text-align: center;
+}
+#story_image{
+    width: 50%;
+    height: 150px;
+    /* padding-top: 5px; */
+    /* margin-left: 1%; */
+    box-shadow: #f75957 0px 5px, #fa7a6b 0px 10px, #fc9083 0px 15px, #fcaba2 0px 20px, #fac6c0 0px 25px;
+
+}
+.story_info{
+    margin-top: 30px;
+
+}

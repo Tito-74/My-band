@@ -67,11 +67,11 @@ footer{
 }
 .handles{
     justify-content: center;
-    margin-left:45%;
+    margin-left:44%;
 }
 .handles > i{
     
-    padding: 5px;
+    padding: 10px;
 }
 
 .copy{
@@ -144,15 +144,16 @@ span{
 
 }
 
-    @media all and (max-width: 1200px) {
+    @media all and (max-width: 800px) {
         .latest-news,.tour-dates, .in_story_now{
           width: 100%;
           font-size: 12px;
           flex-flow: wrap;
           color: lime;
+          overflow: scroll;
         }
     }
-    @media all and (max-width: 1200px) {
+    @media all and (max-width: 800px) {
         .nav{
           font-size: 20px;
           color: lime;
@@ -163,9 +164,12 @@ span{
           flex-direction: column;
         }
     }
-    @media all and (max-width: 1200px) {
+    @media all and (max-width: 800px) {
         .news{
             padding: 0;
         
     }
+}
+html{
+    width: 100%;
 }

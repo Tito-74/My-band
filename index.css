@@ -22,12 +22,14 @@ body{
     position:absolute;
     margin-left: 60%;
     justify-content: space-between;
+  
 
 }
 .nav > a{
     padding-right: 20px;
     text-decoration: none;
     color: #fff;
+  
 }
 .image{
     background-image: url(./Assests/maxresdefault.jpg);
@@ -82,9 +84,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
     padding: 15px;
-    color: #fff;
-    
-    
+    color: #fff; 
 }
 .latest-news, .tour-dates, .in_story_now{
     width: 30%;
@@ -142,4 +142,30 @@ span{
 .story_info{
     margin-top: 30px;
 
+}
+
+    @media all and (max-width: 1200px) {
+        .latest-news,.tour-dates, .in_story_now{
+          width: 100%;
+          font-size: 12px;
+          flex-flow: wrap;
+          color: lime;
+        }
+    }
+    @media all and (max-width: 1200px) {
+        .nav{
+          font-size: 20px;
+          color: lime;
+          display: block;
+          padding: 5px;
+          margin-top: 40px;
+          margin-left: 35%;
+          flex-direction: column;
+        }
+    }
+    @media all and (max-width: 1200px) {
+        .news{
+            padding: 0;
+        
+    }
 }

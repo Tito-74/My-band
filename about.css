@@ -15,27 +15,62 @@ body{
 .nav{
     padding-top: 40px;
     position:absolute;
-    /* margin-left: 60%; */
+    margin-left: 20%;
     justify-content: space-evenly;
   
 
 }
 .nav > a{
-    padding-right: 20px;
+    padding-right: 150px;
     text-decoration: none;
     color: #fff;
     justify-content: space-evenly;
     
   
 }
+@media all and (max-width: 800px) {
+    .nav > a{
+      font-size: 20px;
+      color: lime;
+      padding-right: 20px;
+      /* margin-top: 40px; */
+      /* margin-left: 35%; */
+      /* flex-direction: column; */
+    }
+}
 .container{
     width: 100%;
-    background: #5f6c7d;
+    background: #fff;
     /* height: 150px; */
     display: flex;
 }
+#band{
+    padding-top: 0;
+}
+.band{
+    display: flex;
+    /* font-size: xx-large; */
+    flex-direction: column;
+    text-align: center;
+    
+}
+#band-info > h3{
+    font-family:'Pacifico', cursive;
+
+}
+#band>img{
+    margin-left: 25%;
+}
+#band-info{
+    /* background: rgb(173, 108, 235); */
+    width: 70%;
+    display:inline;
+    margin-left: 100px;
+    padding-bottom: 30px;
+
+}
 .members-info{
-    background: rgb(173, 108, 235);
+    /* background: rgb(173, 108, 235); */
     width: 70%;
     /* height: 150px; */
 }
@@ -47,20 +82,48 @@ body{
 .col{
     display: flex;
     color: cornsilk;
-    padding-top: 10px;
+    width: 96%;
+    padding-top: 20px;
+    margin: 5px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    background-color: #5f6c7d;
+    border: 1px solid gray;
 }
 #member-info{
     text-align: center;
 }
 img{
-    width: 300px;
-    height: 200px;
+    width: 450px;
+    height: 300px;
+    padding: 20px;
 }
 .musics{
     text-align: center;
+    margin: 5px;
+    margin-bottom: 30px;
 }
 #latest-musica{
     /* padding: 20px; */
     margin-left: 10%;
 
+}
+.album > img{
+    width: 250px;
+    height: 200px;
+}
+.awards, .album, #Album{
+    border: 1px solid;
+    margin: 30px;
+    box-shadow:  15px 20px #806180;
+}
+.awards > img{
+    width: 200px;
+    height: 200px;
+
+}
+ #Album,#latest-musica,#single{
+    border: 1px solid;
+    margin: 30px;
+    box-shadow:  10px 15px #543554;
 }

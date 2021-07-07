@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Train+One&display=swap');
 
-
-body{
-    /* background: #5f6c7d; */
-}
 .header{
     display:flex;
     padding: 20px;
@@ -33,15 +29,11 @@ body{
       font-size: 20px;
       color: lime;
       padding-right: 20px;
-      /* margin-top: 40px; */
-      /* margin-left: 35%; */
-      /* flex-direction: column; */
     }
 }
 .container{
     width: 100%;
     background: #fff;
-    /* height: 150px; */
     display: flex;
 }
 #band{
@@ -49,7 +41,6 @@ body{
 }
 .band{
     display: flex;
-    /* font-size: xx-large; */
     flex-direction: column;
     text-align: center;
     
@@ -62,7 +53,6 @@ body{
     margin-left: 25%;
 }
 #band-info{
-    /* background: rgb(173, 108, 235); */
     width: 70%;
     display:inline;
     margin-left: 100px;
@@ -70,14 +60,12 @@ body{
 
 }
 .members-info{
-    /* background: rgb(173, 108, 235); */
     width: 70%;
-    /* height: 150px; */
+    
 }
 .musics{
     background:rgb(221, 196, 245);
     width: 30%;
-    /* height: 150px; */
 }
 .col{
     display: flex;
@@ -104,8 +92,7 @@ img{
     margin-bottom: 30px;
 }
 #latest-musica{
-    /* padding: 20px; */
-    margin-left: 10%;
+        margin-left: 10%;
 
 }
 .album > img{

@@ -127,3 +127,24 @@ img{
     margin: 30px;
     box-shadow:  10px 15px #543554;
 }
+footer{
+    color: #fff;
+    display: flex;
+    margin-top: -20px;
+    flex-direction: column;
+    background-color: #828487;
+    font-size: large;
+    
+}
+.handles{
+    justify-content: center;
+    margin-left:44%;
+}
+.handles > i{
+    
+    padding: 10px;
+}
+
+.copy{
+    text-align: center;
+}
